@@ -25,7 +25,7 @@ const DisplayBalance = () => {
       <h3>Win History</h3>
       <ul>
         {winHistory.slice(-5).map((win, index) => (
-          <li key={index}>{win} coins</li> // Use a unique identifier if available
+          <li key={index}>{win.layer1}</li> // Use a unique identifier if available
         ))}
       </ul>
     </div>

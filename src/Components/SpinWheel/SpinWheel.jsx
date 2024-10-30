@@ -156,8 +156,8 @@ const SpinWheel = () => {
     setResult(spinResult);
     dispatch(setSpinResult(spinResult));
 
-  // Show alert for winnings
-alert(`You won ${coinsWon} coins and ${cashWon} cash! Multiplier: ${multiplier}, Image: ${image ? image : 'No Image'}`);
+    // Show alert for winnings
+    alert(`You won ${coinsWon} coins and ${cashWon} cash! Multiplier: ${multiplier}, Image: ${image ? image : 'No Image'}`);
 
     // Launch confetti if jackpot
     if (layer1Result === 'Jackpot!') {
