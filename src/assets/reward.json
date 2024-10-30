@@ -1,0 +1,412 @@
+[
+    {
+        "category": "Spin-Based Achievements",
+        "achievements": [
+            {
+                "name": "Spin Rookie",
+                "description": "Complete 5 spins in a row.",
+                "currentProgress": 3,
+                "requiredProgress": 5,
+                "reward": 10
+            },
+            {
+                "name": "Spin Master",
+                "description": "Spin daily for 30 days.",
+                "currentProgress": 10,
+                "requiredProgress": 30,
+                "reward": 100
+            },
+            {
+                "name": "Frequent Spinner",
+                "description": "Spin the wheel 100 times.",
+                "currentProgress": 75,
+                "requiredProgress": 100,
+                "reward": 50
+            },
+            {
+                "name": "Spin Enthusiast",
+                "description": "Spin the wheel 500 times in a month.",
+                "currentProgress": 250,
+                "requiredProgress": 500,
+                "reward": 150
+            },
+            {
+                "name": "Power Spinner",
+                "description": "Perform 10 spins in under 5 minutes.",
+                "currentProgress": 8,
+                "requiredProgress": 10,
+                "reward": 30
+            }
+        ]
+    },
+    {
+        "category": "Winning and Luck-Based Achievements",
+        "achievements": [
+            {
+                "name": "Jackpot Winner",
+                "description": "Hit the Jackpot of ₹50.",
+                "currentProgress": 1,
+                "requiredProgress": 1,
+                "reward": 500
+            },
+            {
+                "name": "Lucky Streak",
+                "description": "Win 10 times in a row.",
+                "currentProgress": 7,
+                "requiredProgress": 10,
+                "reward": 150
+            },
+            {
+                "name": "Perfect Timing",
+                "description": "Land on the highest reward 5 times in a day.",
+                "currentProgress": 2,
+                "requiredProgress": 5,
+                "reward": 75
+            },
+            {
+                "name": "Double Jackpot",
+                "description": "Win the Jackpot two times in a day.",
+                "currentProgress": 1,
+                "requiredProgress": 2,
+                "reward": 1000
+            },
+            {
+                "name": "Comeback Win",
+                "description": "Win after losing 5 times consecutively.",
+                "currentProgress": 4,
+                "requiredProgress": 5,
+                "reward": 200
+            }
+        ]
+    },
+    {
+        "category": "Daily Login and Consistency Achievements",
+        "achievements": [
+            {
+                "name": "Daily Visitor",
+                "description": "Login daily for a week.",
+                "currentProgress": 5,
+                "requiredProgress": 7,
+                "reward": 20
+            },
+            {
+                "name": "Dedicated Player",
+                "description": "Login daily for 30 days.",
+                "currentProgress": 25,
+                "requiredProgress": 30,
+                "reward": 100
+            },
+            {
+                "name": "Consistency Pro",
+                "description": "Login daily for 3 months.",
+                "currentProgress": 60,
+                "requiredProgress": 90,
+                "reward": 500
+            },
+            {
+                "name": "Marathon Player",
+                "description": "Login daily for 6 months.",
+                "currentProgress": 120,
+                "requiredProgress": 180,
+                "reward": 1000
+            },
+            {
+                "name": "Yearly Player",
+                "description": "Login daily for a year.",
+                "currentProgress": 300,
+                "requiredProgress": 365,
+                "reward": 2000
+            }
+        ]
+    },
+    {
+        "category": "Level-Up Achievements",
+        "achievements": [
+            {
+                "name": "Level 5 Achiever",
+                "description": "Reach Level 5 in the game.",
+                "currentProgress": 4,
+                "requiredProgress": 5,
+                "reward": 30
+            },
+            {
+                "name": "Level 10 Hero",
+                "description": "Reach Level 10 in the game.",
+                "currentProgress": 8,
+                "requiredProgress": 10,
+                "reward": 75
+            },
+            {
+                "name": "Level 20 Champion",
+                "description": "Reach Level 20 in the game.",
+                "currentProgress": 15,
+                "requiredProgress": 20,
+                "reward": 150
+            },
+            {
+                "name": "Level 50 Legend",
+                "description": "Reach Level 50 in the game.",
+                "currentProgress": 45,
+                "requiredProgress": 50,
+                "reward": 500
+            },
+            {
+                "name": "Level 100 Master",
+                "description": "Reach Level 100 in the game.",
+                "currentProgress": 90,
+                "requiredProgress": 100,
+                "reward": 1000
+            }
+        ]
+    },
+    {
+        "category": "Referral Achievements",
+        "achievements": [
+            {
+                "name": "First Referral",
+                "description": "Refer 1 friend to the game.",
+                "currentProgress": 1,
+                "requiredProgress": 1,
+                "reward": 20
+            },
+            {
+                "name": "Referral Expert",
+                "description": "Refer 10 friends to the game.",
+                "currentProgress": 7,
+                "requiredProgress": 10,
+                "reward": 100
+            },
+            {
+                "name": "Referral Master",
+                "description": "Refer 50 friends to the game.",
+                "currentProgress": 30,
+                "requiredProgress": 50,
+                "reward": 500
+            },
+            {
+                "name": "Referral Guru",
+                "description": "Refer 100 friends to the game.",
+                "currentProgress": 80,
+                "requiredProgress": 100,
+                "reward": 2000
+            }
+        ]
+    },
+    {
+        "category": "Special Event Achievements",
+        "achievements": [
+            {
+                "name": "Holiday Spin",
+                "description": "Participate in a special holiday spin.",
+                "currentProgress": 1,
+                "requiredProgress": 1,
+                "reward": 25
+            },
+            {
+                "name": "Festival Jackpot",
+                "description": "Win a special festival jackpot prize.",
+                "currentProgress": 0,
+                "requiredProgress": 1,
+                "reward": 300
+            },
+            {
+                "name": "Event King",
+                "description": "Participate in 5 special events.",
+                "currentProgress": 2,
+                "requiredProgress": 5,
+                "reward": 100
+            },
+            {
+                "name": "Seasonal Master",
+                "description": "Participate in all seasonal events of the year.",
+                "currentProgress": 2,
+                "requiredProgress": 4,
+                "reward": 1000
+            }
+        ]
+    },
+    {
+        "category": "Milestone-Based Achievements",
+        "achievements": [
+            {
+                "name": "500 Spins",
+                "description": "Complete 500 spins in total.",
+                "currentProgress": 450,
+                "requiredProgress": 500,
+                "reward": 250
+            },
+            {
+                "name": "1000 Spins",
+                "description": "Complete 1000 spins in total.",
+                "currentProgress": 750,
+                "requiredProgress": 1000,
+                "reward": 500
+            },
+            {
+                "name": "Ultimate Spinner",
+                "description": "Complete 5000 spins in total.",
+                "currentProgress": 3000,
+                "requiredProgress": 5000,
+                "reward": 2000
+            },
+            {
+                "name": "10000 Spins Master",
+                "description": "Complete 10,000 spins in total.",
+                "currentProgress": 7500,
+                "requiredProgress": 10000,
+                "reward": 5000
+            }
+        ]
+    },
+    {
+        "category": "Social Interaction Achievements",
+        "achievements": [
+            {
+                "name": "Social Sharer",
+                "description": "Share the game on social media 5 times.",
+                "currentProgress": 3,
+                "requiredProgress": 5,
+                "reward": 25
+            },
+            {
+                "name": "Group Player",
+                "description": "Play the game with friends 10 times.",
+                "currentProgress": 6,
+                "requiredProgress": 10,
+                "reward": 50
+            },
+            {
+                "name": "Social Butterfly",
+                "description": "Share and play with friends 20 times.",
+                "currentProgress": 10,
+                "requiredProgress": 20,
+                "reward": 100
+            },
+            {
+                "name": "Community Star",
+                "description": "Host a game room with 20 friends.",
+                "currentProgress": 10,
+                "requiredProgress": 20,
+                "reward": 250
+            }
+        ]
+    },
+    {
+        "category": "Special Badge Achievements",
+        "achievements": [
+            {
+                "name": "Newcomer Badge",
+                "description": "Awarded to all new players upon registration.",
+                "currentProgress": 1,
+                "requiredProgress": 1,
+                "reward": 10
+            },
+            {
+                "name": "Veteran Badge",
+                "description": "Awarded to players with over 1 year of activity.",
+                "currentProgress": 11,
+                "requiredProgress": 12,
+                "reward": 200
+            },
+            {
+                "name": "Legend Badge",
+                "description": "Awarded to players reaching the highest level.",
+                "currentProgress": 19,
+                "requiredProgress": 20,
+                "reward": 500
+            },
+            {
+                "name": "Anniversary Badge",
+                "description": "Awarded on your 1-year anniversary with the game.",
+                "currentProgress": 0,
+                "requiredProgress": 1,
+                "reward": 300
+            },
+            {
+                "name": "Milestone Badge",
+                "description": "Awarded on completing 1000 spins.",
+                "currentProgress": 750,
+                "requiredProgress": 1000,
+                "reward": 500
+            }
+        ]
+    },
+    {
+        "category": "Daily Task Achievements",
+        "achievements": [
+            {
+                "name": "Daily Spinner",
+                "description": "Complete 1 spin each day.",
+                "currentProgress": 3,
+                "requiredProgress": 1,
+                "reward": 5
+            },
+            {
+                "name": "Daily Winner",
+                "description": "Win 3 times in a day.",
+                "currentProgress": 2,
+                "requiredProgress": 3,
+                "reward": 15
+            },
+            {
+                "name": "Daily Pro",
+                "description": "Complete 5 tasks daily for 7 days.",
+                "currentProgress": 5,
+                "requiredProgress": 7,
+                "reward": 50
+            },
+            {
+                "name": "Task Streak",
+                "description": "Complete 10 daily tasks in a row.",
+                "currentProgress": 8,
+                "requiredProgress": 10,
+                "reward": 150
+            },
+            {
+                "name": "Daily Master",
+                "description": "Complete 10 tasks daily for 30 days.",
+                "currentProgress": 10,
+                "requiredProgress": 30,
+                "reward": 200
+            }
+        ]
+    },
+    {
+        "category": "High Roller Achievements",
+        "achievements": [
+            {
+                "name": "Big Spender",
+                "description": "Place a bet of ₹500 or more.",
+                "currentProgress": 300,
+                "requiredProgress": 500,
+                "reward": 50
+            },
+            {
+                "name": "Risk Taker",
+                "description": "Bet 10 times in a row without winning.",
+                "currentProgress": 6,
+                "requiredProgress": 10,
+                "reward": 75
+            }
+        ]
+    },
+    {
+        "category": "Combo Achievements",
+        "achievements": [
+            {
+                "name": "Spin and Win Combo",
+                "description": "Spin and win 5 times consecutively.",
+                "currentProgress": 4,
+                "requiredProgress": 5,
+                "reward": 100
+            },
+            {
+                "name": "Login + Jackpot Combo",
+                "description": "Login daily and hit a jackpot within the same week.",
+                "currentProgress": 3,
+                "requiredProgress": 7,
+                "reward": 500
+            }
+        ]
+    }
+]

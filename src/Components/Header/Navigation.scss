@@ -1,0 +1,104 @@
+.Navigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    padding: 10px 0;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+  
+    &__menu {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      max-width: 500px;
+    }
+  
+    &__item {
+      flex: 1;
+      text-align: center;
+      color: #888;
+      transition: color 0.3s ease, transform 0.3s ease;
+      position: relative;
+  
+      &:hover,
+      &.active {
+        color: #fff;
+      }
+  
+      &.active::after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 6px;
+        height: 6px;
+        background-color: #ff6b6b;
+        border-radius: 50%;
+      }
+  
+      &--spin {
+        background-color: #ff6b6b;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        position: relative;
+        top: -0px;
+        box-shadow: 0 4px 12px rgba(255, 107, 107, 0.6);
+        animation: pulse 1.5s infinite;
+  
+        a {
+          color: #fff;
+        }
+      }
+    }
+  
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 4px 12px rgba(255, 107, 107, 0.6);
+      }
+      50% {
+        transform: scale(1.1);
+        box-shadow: 0 6px 16px rgba(255, 107, 107, 0.8);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 4px 12px rgba(255, 107, 107, 0.6);
+      }
+    }
+  
+    &__link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 12px;
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      svg {
+        font-size: 1.5rem;
+        margin-bottom: 4px;
+      }
+  
+      span {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  

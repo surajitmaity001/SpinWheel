@@ -1,0 +1,138 @@
+/* Full-screen Overlay */
+.leaderboard-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Leaderboard Component */
+.leaderboard {
+  background-color: #1d1f2b;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.5s ease-out;
+
+  h2 {
+    font-size: 2.2rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    button {
+      background-color: #2a2d3c;
+      color: #ffffff;
+      border: none;
+      padding: 12px 20px;
+      margin: 0 8px;
+      cursor: pointer;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+
+      &.active {
+        background-color: #ffcc00;
+        color: #1d1f2b;
+        transform: scale(1.05);
+      }
+
+      &:hover:not(.active) {
+        background-color: #3a3d4f;
+      }
+    }
+  }
+
+  &__list {
+    margin-top: 20px;
+    max-height: 50vh;
+    overflow-y: auto;
+  }
+
+  &__user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #2a2d3c;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      background-color: #3a3d4f;
+    }
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+
+    .leaderboard__image,
+    .leaderboard__icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 12px;
+      background-color: #3a3d4f;
+    }
+
+    .leaderboard__icon {
+      color: #ffcc00;
+      font-size: 2.5rem;
+    }
+
+    .leaderboard__name {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }
+
+  &__stats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .leaderboard__points,
+    .leaderboard__coins {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .leaderboard__points {
+      color: #00ff99;
+    }
+
+    .leaderboard__coins {
+      color: #ffd700;
+    }
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

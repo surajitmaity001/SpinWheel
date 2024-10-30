@@ -1,0 +1,87 @@
+// src/components/RewardsPage/AchievementCard.scss
+.achievement-card {
+    position: relative;
+    width: 100%;
+    max-width: 220px;
+    padding: 1.2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.3s;
+    overflow: hidden;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    &.unlocked {
+        border-left: 4px solid #4caf50;
+
+        &:before {
+            content: "Unlocked!";
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: #4caf50;
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            border-radius: 3px;
+            transform: rotate(-15deg);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    &.locked {
+        opacity: 0.6;
+        border-left: 4px solid #ccc;
+    }
+
+    .card-content {
+        text-align: center;
+
+        h4 {
+            font-size: 1.2rem;
+            color: #333;
+            margin: 0;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 0.95rem;
+            color: #777;
+            margin: 0.5rem 0;
+        }
+
+        .reward-info {
+            margin-top: 1rem;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .reward-amount {
+                color: #4caf50;
+                font-weight: bold;
+                margin-right: 0.3rem;
+            }
+
+            .unit-badge {
+                display: inline-block;
+                padding: 0.2rem 0.4rem;
+                background: #f0f4c3;
+                color: #33691e;
+                font-size: 0.8rem;
+                border-radius: 4px;
+            }
+
+            .locked-text {
+                color: #888;
+                font-style: italic;
+            }
+        }
+    }
+}

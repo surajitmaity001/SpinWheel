@@ -1,0 +1,138 @@
+// Color and font variables
+$primary-color: #3742fa;
+$secondary-color: #70a1ff;
+$highlight-color: #ffa502;
+$reward-color: #ff6348;
+$gradient-bg: linear-gradient(135deg, #eccc68, #ff7f50);
+$background-color: #f1f2f6;
+$font-family: 'Poppins', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+}
+
+.reward-app {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(120deg, #dfe4ea, #ced6e0);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-size: 2.5rem;
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 30px;
+    background: $gradient-bg;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.reward-category {
+  margin-bottom: 30px;
+
+  h2 {
+    font-size: 1.8rem;
+    color: $primary-color;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $primary-color;
+  }
+}
+
+.achievement-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.achievement-card {
+  width: 100%;
+  max-width: 300px;
+  background: $gradient-bg;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: white;
+  text-align: center;
+  position: relative;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .achievement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+    h3 {
+      font-size: 1.2rem;
+      color: #2f3542;
+    }
+
+    .reward-amount {
+      font-size: 1rem;
+      background: $reward-color;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 15px;
+      display: flex;
+      align-items: center;
+
+      .reward-icon {
+        margin-right: 5px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .achievement-description {
+    font-size: 0.95rem;
+    color: #2f3542;
+    margin-bottom: 15px;
+  }
+
+  .achievement-icon {
+    font-size: 1.5rem;
+    color: $highlight-color;
+    margin-right: 5px;
+  }
+}
+
+.progress-bar-container {
+  position: relative;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 10px;
+
+  .progress-bar {
+    height: 100%;
+    background: $highlight-color;
+    transition: width 0.3s ease;
+  }
+
+  .progress-text {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 0.85rem;
+    color: $highlight-color;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,46 @@
+// src/components/Sidebar.scss
+.Sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .Sidebar__close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    margin-bottom: 20px;
+  
+    &:hover {
+      color: red; // Change color on hover
+    }
+  }
+  
+  .Sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Sidebar li {
+    margin: 15px 0;
+  }
+  
+  .Sidebar a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+  
+    &:hover {
+      color: #007bff; // Change color on hover
+    }
+  }
+  

@@ -1,0 +1,150 @@
+// Colors
+$primary-color: #4A90E2;
+$secondary-color: #50E3C2;
+$accent-color: #F5A623;
+$text-color: #333;
+$background-color: #f9f9f9;
+$header-color: #1F1F1F;
+$section-background: #ffffff;
+$input-background: #f0f0f0;
+$border-radius: 8px;
+
+.more-container {
+  background-color: $background-color;
+  padding: 2rem;
+  color: $text-color;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: $header-color;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.more-section {
+  background-color: $section-background;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.more-header {
+  color: $primary-color;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid $secondary-color;
+  padding-left: 1rem;
+}
+
+.more-list {
+  list-style: none;
+  padding: 0;
+  
+  .more-list-item {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: $text-color;
+    
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
+.team-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  flex-basis: calc(33% - 1rem);
+  background-color: $input-background;
+  padding: 1rem;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  .team-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    color: $header-color;
+  }
+
+  p {
+    color: $primary-color;
+  }
+}
+
+.more-testimonial {
+  font-size: 1rem;
+  color: $accent-color;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: linear-gradient(135deg, $primary-color, $secondary-color);
+  color: white;
+  border-radius: $border-radius;
+}
+
+.more-newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+  
+  input[type="email"] {
+    flex-grow: 1;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid $primary-color;
+    border-radius: $border-radius;
+    background-color: $input-background;
+    &:focus {
+      border-color: $secondary-color;
+      outline: none;
+    }
+  }
+
+  button {
+    background-color: $primary-color;
+    color: white;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $accent-color;
+    }
+  }
+}
+
+.social-media-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 1.5rem;
+
+  a {
+    color: $primary-color;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
